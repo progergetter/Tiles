@@ -37,7 +37,7 @@ const shuffle = function (arr) {
 };
 
 const tiles = [];
-let n = 16;
+let n = 36;
 
 let score = 0;
 
