@@ -1,0 +1,60 @@
+span {
+  display: inline-block;
+}
+
+.spanShowInner {
+  display: inline-block;
+}
+
+.hiddenFound {
+  visibility: hidden;
+}
+
+.cover {
+  background-image: url("cover.jpeg");
+  background-size: 100% auto;
+}
+
+.blocker {
+  pointer-events: none;
+}
+
+.nonSelectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#counter {
+  position: absolute;
+  top: 10%;
+  left: 47%;
+  transform: translate(-10%, -47%);
+}
+
+html {
+  font-size: 145%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.loading-mask {
+  background-color: white;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
